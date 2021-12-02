@@ -5,7 +5,7 @@ const { naver } = window;
 
 function MainMap() {
   // 데이터
-  const [data, setData] = useState([
+  const [data] = useState([
     {
       title: '서울역',
       address: '서울 종로',
@@ -105,6 +105,7 @@ function MainMap() {
 
   return (
     <>
+      {/* 지도 */}
       <div id="map" style={{ width: '100%', height: '100vh' }}></div>
     </>
   );
