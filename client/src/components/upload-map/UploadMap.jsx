@@ -40,7 +40,9 @@ function UploadMap() {
       <div id="menu_wrap">
         <form onSubmit={}>
           키워드: <input type="text" id="keyword" value={Value} size="15" />
-          
+          <button type="submit">검색하기</button>
+          <hr />
+          <div id="placesList"></div>
         </form>
       </div>
     </>
