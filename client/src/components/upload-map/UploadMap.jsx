@@ -24,7 +24,7 @@ function UploadMap() {
 
     let makerList = [];
 
-    // 키워드로 장소 검색
+    // 키워드로 장소 검색을 위한 코드들
     let ps = new kakao.maps.services.Places();
 
     // 결과값이 data, status는 결과값을 반환하기 위한 서버 상태
